@@ -1,0 +1,269 @@
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	box-sizing: border-box;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**/
+body{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.green{
+	color: #42b392;
+}
+
+.clearfix{
+	clear: both;
+}
+
+/*topbar*/
+.topbar{
+	background-color: #f6f6f6;
+}
+
+.topbar ul{
+	float: right;
+	padding: 5px;
+}
+
+.topbar li, img{
+	float: left;
+	margin-left: 5px;	
+}
+
+.topbar a{
+	text-decoration: none;	
+}
+
+.topbar span#follow{
+	color: #67c0ef;
+}
+
+.topbar span#fb{
+	color: #667aad;
+	border-right:1px solid #cccccc;
+	padding-right: 10px;	
+}
+
+/*header*/
+.header h1 a{
+	width: 173px;
+	height: 51px;
+	float: left;
+	display: block;
+	background-image: url(../image/logo.png);
+	text-indent: 101%;
+	overflow: hidden;
+	margin-left: 15px;
+}
+
+.header ul{
+	float: right;
+}
+
+.header ul li{
+	line-height: 51px;
+	float: left;
+	margin-left: 15px;
+}
+
+.header ul li a{
+	text-decoration: none;
+	color: #00cc99;
+}
+
+.header ul li a:hover{
+	padding-bottom: 15px;
+	border-bottom: 4px solid #00cc99;
+}
+
+/*intro*/
+.content .intro{
+	position: relative;
+	height: 346px;
+	background-image: url(../image/home.png);
+}
+
+.content .intro .warp{	
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	padding: 20px 20px;	
+	background:rgba(185,185,185,0.05);
+	top: 117px;
+	width: 1000px;
+	font-weight: bold;
+}
+
+/*list*/
+.content .list ul li{
+	float: left;
+	width: 300px;
+	height: 300px;	
+	box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2);
+	margin-left: 25px;
+	margin-top: 30px;
+}
+
+.content .list li img{
+	margin-left: 0;
+}
+
+.content .list h3{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+.content .list p{	
+	line-height: 18px;
+	margin: 0px 20px;
+}
+
+/*compare table*/
+.content .compare{
+	margin-top: 50px;	
+}
+
+.content .compare h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+table{
+	margin:0 auto;
+}
+
+table th, table td{
+	border-top:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;	
+}
+
+table th{
+	text-align: left;
+	background: #f7f7f7;
+	padding: 10px 10px 10px 20px;
+	font-weight: bold;
+}
+
+table td{
+	padding: 10px 155px 10px 20px;
+}
+
+/*connect*/
+.connect{
+	height: 405px;
+	background-image: url(../image/bg.png);
+	margin-top: 40px;
+}
+
+.connect h3{
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	padding-top: 40px;
+}
+
+form{
+	margin-top: 15px;
+}
+
+.connect #message{
+	float: left;
+	margin: 0 0 10px 17px;
+	border-radius: 5px 5px 5px 5px;
+	border: none;
+	resize : none;
+}
+
+.connect .baseData{
+	float: right;
+	margin: 0 20px 15px 15px;
+	line-height: 25px;
+	color: white;
+	font-weight: bold;
+}
+.connect .baseData .warp{
+	margin-top: 15px;
+}
+
+.connect .baseData input{
+	float: right;	
+	line-height: 30px;
+	padding: 0 10px;	
+	border-radius: 5px 5px 5px 5px;
+	border: none;
+}
+
+.connect .baseData input#submit{
+	color: white;
+	margin-top: 10px;
+	padding: 2px 15px;
+	background-color: #00cc99;
+	border: none;
+	border-color: #00cc99;
+}
+/*footer*/
+
+footer{
+	height: 40px;
+	padding: 20px 5px;
+}
+
+footer img{
+	float: left;
+}
+
+footer .info{
+	float: right;
+}
+
+footer .info span{
+	color: #e12d80;
+}
